@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RealTime Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <!-- defer so that script load in background. once DOM COmpleted then it will run. so no need to add script at end of body -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="logo.png" alt="Logo" >
+        <h1>RealTime Chat App</h1>
+    </nav>
+    <div class="container">
+        
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" id="MessageInput">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
